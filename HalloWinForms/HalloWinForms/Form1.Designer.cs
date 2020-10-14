@@ -60,7 +60,7 @@
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(798, 502);
+            this.dataGridView1.Size = new System.Drawing.Size(779, 368);
             this.dataGridView1.TabIndex = 1;
             // 
             // button2
@@ -70,16 +70,17 @@
             this.button2.Location = new System.Drawing.Point(152, 4);
             this.button2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(143, 30);
+            this.button2.Size = new System.Drawing.Size(188, 30);
             this.button2.TabIndex = 2;
-            this.button2.Text = "Parkplatz anzeigen";
+            this.button2.Text = "Bogus Parkplatz anzeigen";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button3
             // 
             this.button3.AutoSize = true;
             this.button3.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.button3.Location = new System.Drawing.Point(301, 4);
+            this.button3.Location = new System.Drawing.Point(346, 4);
             this.button3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(143, 30);
@@ -98,15 +99,15 @@
             this.flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 0);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(798, 38);
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(779, 38);
             this.flowLayoutPanel1.TabIndex = 4;
             // 
             // statusStrip1
             // 
             this.statusStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
-            this.statusStrip1.Location = new System.Drawing.Point(0, 540);
+            this.statusStrip1.Location = new System.Drawing.Point(0, 406);
             this.statusStrip1.Name = "statusStrip1";
-            this.statusStrip1.Size = new System.Drawing.Size(798, 22);
+            this.statusStrip1.Size = new System.Drawing.Size(779, 22);
             this.statusStrip1.TabIndex = 5;
             this.statusStrip1.Text = "statusStrip1";
             // 
@@ -115,7 +116,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Window;
-            this.ClientSize = new System.Drawing.Size(798, 562);
+            this.ClientSize = new System.Drawing.Size(779, 428);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.statusStrip1);
             this.Controls.Add(this.flowLayoutPanel1);
