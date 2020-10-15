@@ -1,0 +1,16 @@
+﻿<Window x:Class="HalloAsync.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:HalloAsync"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="250" Width="400">
+    <StackPanel>
+        <Button Click="STartOhne">Start</Button>
+        <Button Click="StartTS">Start Dispatcher</Button>
+        <Button Click="StartTS2">Start TS</Button>
+        <Button Click="StartAsync">Start Async/Await</Button>
+        <ProgressBar Height="22" Name="pb1" />
+    </StackPanel>
+</Window>
